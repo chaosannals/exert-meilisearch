@@ -1,0 +1,17 @@
+version: '3.8'
+
+services: 
+    meilisearch-server:
+        image: getmeili/meilisearch
+        container_name: exert-meilisearch-server
+        ports: 
+            - 7700:7700
+        volumes:
+            - ./docker/data.ms:/data.ms
+        networks: 
+            - exert-meilisearch-net
+
+networks:
+    exert-meilisearch-net:
+        name: exert-meilisearch-net
+        driver: bridge
