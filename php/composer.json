@@ -1,0 +1,15 @@
+{
+    "name": "chaosannals/exert-meilisearch-php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "chaosannals",
+            "email": "chaosannals@outlook.com"
+        }
+    ],
+    "require": {
+        "meilisearch/meilisearch-php": "^0.18.0",
+        "guzzlehttp/guzzle": "^7.3",
+        "http-interop/http-factory-guzzle": "1.0"
+    }
+}
