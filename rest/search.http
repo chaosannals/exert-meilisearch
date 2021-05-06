@@ -1,0 +1,7 @@
+### 查询
+POST http://127.0.0.1:7700/indexes/tester/search HTTP/1.1
+Content-Type: application/json
+
+{
+    "q": "Superman"
+}
